@@ -40,7 +40,7 @@ h1 {
 }
 
 body {
-  background-image: url(img/mascaras.jpg);
+  background-image: url(../img/mascaras.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
