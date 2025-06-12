@@ -14,15 +14,6 @@ header {
   position: sticky;
 }
 
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  margin-bottom: 5px;
-  padding-top: 10px;
-  padding-left: 20px;
-  color: rgb(55, 47, 165);
-}
-
 header ul {
   display: flex;
   margin-top: 10px;
@@ -37,6 +28,15 @@ header a {
   text-decoration: none;
   color: rgb(31, 51, 95);
   padding: 15px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-left: 20px;
+  color: rgb(55, 47, 165);
 }
 
 body {
@@ -64,19 +64,41 @@ footer {
   justify-content: space-around;
 }
 
-.contacto {
+.contactos {
   color: rgb(255, 255, 255);
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.contacto ul {
+.contactos ul{
   list-style: none;
+  text-decoration: none;
 }
 
-.contacto a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
+.contacto ul {
+  list-style: none;
+  padding-left: 20px;
+  font-size: 20px;
+  padding-bottom: 40px;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contacto iframe{
+  padding-left: 80px;
+  margin-bottom: 20px;
+}
+
+.cont{
+  background-color: #00003062;
+}
+
+.cont h2{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  font-size: 30px;
+  padding-top: 20px
 }
 
 .figuritas a {
@@ -85,31 +107,6 @@ footer {
   margin: 0 10px;
   text-decoration: none;
   transition: color 0.3s;
-}
-
-
-.descripcion {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 40px;
-  padding-top: 20px;
-  text-align: center;
-}
-
-.descripcion-1 {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 40px;
-  padding: 10px;
-  text-align: center;
-}
-
-.descripcion-2 {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 40px;
-  padding: 10px;
-  text-align: center;
 }
 
 .serv{
