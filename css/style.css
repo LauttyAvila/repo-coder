@@ -19,7 +19,7 @@ header ul {
   margin-top: 10px;
   padding: 20px;
   list-style: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 15px;
   font-weight: bold;
 }
@@ -40,7 +40,7 @@ h1 {
 }
 
 body {
-  background-image: url(../img/mascaras.jpg);
+  background-image: url(../img/Soldadura.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -54,6 +54,34 @@ body h3 {
   color: rgb(255, 255, 255);
   margin-top: 75px;
   margin-bottom: 550px;
+}
+
+.frase{
+  text-align: center;
+  font-size: 30px;
+  color:  rgb(45, 39, 133);
+  text-transform: uppercase;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: aliceblue;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.nt{
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../img/obra.13.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 350px;
+}
+
+.nt a{
+  text-decoration: none;
+  color:  rgb(45, 39, 133);
 }
 
 footer {
